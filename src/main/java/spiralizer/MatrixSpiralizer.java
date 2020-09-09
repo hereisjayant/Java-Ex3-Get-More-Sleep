@@ -1,5 +1,7 @@
 package spiralizer;
 
+import org.jetbrains.annotations.NotNull;
+
 public class MatrixSpiralizer {
 
     /**
@@ -7,8 +9,15 @@ public class MatrixSpiralizer {
      * @return a matrix that is "spriralized" version of inMatrix
      */
     public static int[][] spiralize(@NotNull int[][] inMatrix) {
-        int[][] outMatrix;
-        // TODO: Your implementation goes here
-        return null; // CHANGE THIS!
+
+        int outMatrix[][];
+        int rows = inMatrix.length;
+        int cols = inMatrix[0].length;
+
+
+
+        outMatrix = new int[rows][cols];
+
+        return outMatrix; // CHANGE THIS!
     }
 }
