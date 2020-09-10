@@ -37,7 +37,7 @@ public class MatrixSpiralizer {
             for(j= start_forward; j<=end_forward; j++){
 
                 //this gets the position of the input matrix
-                int row_in = getCurrentRow(nth_element, rows);
+                int row_in = getCurrentRow(nth_element, cols);
                 int col_in = getCurrentCol(nth_element, cols);
 
                 outMatrix[i][j]= inMatrix[row_in][col_in];
@@ -54,7 +54,7 @@ public class MatrixSpiralizer {
             for(i= start_down; i<=end_down; i++){
 
                 //this gets the position of the input matrix
-                int row_in = getCurrentRow(nth_element, rows);
+                int row_in = getCurrentRow(nth_element, cols);
                 int col_in = getCurrentCol(nth_element, cols);
 
                 outMatrix[i][j]= inMatrix[row_in][col_in];
@@ -71,7 +71,7 @@ public class MatrixSpiralizer {
             for(j= start_backwards; j>=end_backwards; j--){
 
                 //this gets the position of the input matrix
-                int row_in = getCurrentRow(nth_element, rows);
+                int row_in = getCurrentRow(nth_element, cols);
                 int col_in = getCurrentCol(nth_element, cols);
 
                 outMatrix[i][j]= inMatrix[row_in][col_in];
@@ -88,7 +88,7 @@ public class MatrixSpiralizer {
             for(i= start_upwards; i>=end_upwards; i--){
 
                 //this gets the position of the input matrix
-                int row_in = getCurrentRow(nth_element, rows);
+                int row_in = getCurrentRow(nth_element, cols);
                 int col_in = getCurrentCol(nth_element, cols);
 
                 outMatrix[i][j]= inMatrix[row_in][col_in];
