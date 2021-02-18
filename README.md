@@ -1,4 +1,4 @@
-**CPEN 221 / Fall 2020 / Exercise 1**
+**Matrix Spiralizer**
 
 Matrix Spiralizer
 ===
@@ -24,7 +24,7 @@ The matrix
 | 4    | 5    | 6    |
 | 7    | 8    | 9    |
 
-would become 
+would become
 
 | 1    | 2    | 3    |
 |:---:|:---:|:---:|
@@ -50,30 +50,3 @@ would become
 | 3    | 8    | 8    | 1    | 9    |
 
 after spiralizing.
-
-## Logistics
-
-**Submission Instructions**
-
-+ Submit your work to the Github classroom repository that was created for you.
-+ **Do not alter the directory/folder structure. You should retain the structure as in this repository.**
-+ Do not wait until the last minute to push your work to Github. It is a good idea to push your work at intermediate points as well. _We would recommend that you get your Git and Github workflow set up at the start._
-
-**What Should You Implement / Guidelines**
-
-+ You should implement all the methods that are indicated with `TODO`.
-+ Passing the provided tests is the minimum requirement. Use the tests to identify cases that need to be handled. Passing the provided tests is *not sufficient* to infer that your implementation is complete and that you will get full credit. Additional tests will be used to evaluate your work. The provided tests are to guide you.
-+ You can implement additional helper methods if you need to but you should keep these methods `private` to the appropriate classes.
-+ You do not need to implement new classes.
-+ You can use additional **standard** Java libraries by importing them.
-+ Do not throw new exceptions unless the specification for the method permits exceptions.
-
-
-## Honour Code
-
-By submitting your work to Github you agree to the following:
-
-+ You did not consult with any other person for the purpose of completing this activity.
-+ You did not aid any other person in the class in completing their activity.
-+ If you consulted any external sources, such as resources available on the World Wide Web, in completing the examination then you have cited the source. (You do not need to cite class notes or Sun/Oracle Java documentation.)
-+ You are not aware of any infractions of the honour code for this examination.
